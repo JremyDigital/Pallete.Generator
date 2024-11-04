@@ -18,6 +18,7 @@ function generatePallete() {
         boxColor.style.backgroundColor = `hsl(${hueValue}, ${saturationValue}, ${lightnessValue})`;
         boxColor.style.width = "50px";
         boxColor.style.height = "50px";
+        boxColor.style.borderRadius = "50%";
 
         randomPallete.append(boxColor);
     }
@@ -29,5 +30,3 @@ generateBtn.addEventListener("click", (e) => {
     e.preventDefault();
     generatePallete();
 });
-
-console.log(viewSection);
