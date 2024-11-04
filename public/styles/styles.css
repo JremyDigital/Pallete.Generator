@@ -6,6 +6,10 @@
     font-family: sans-serif;
 }
 
+body {
+    padding: 1em;
+}
+
 .random-pallete {
     display: flex;
     flex-wrap: wrap;
